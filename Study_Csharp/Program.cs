@@ -71,6 +71,7 @@ namespace Study_Csharp
             XElementTest.XElementChild();
             */
 
+            /*
             BaseClass BClassD = new DervicedClass();
             DervicedClass DClassD = new DervicedClass();
 
@@ -78,7 +79,11 @@ namespace Study_Csharp
             DClassD.Method1(); 
             var r = (BaseClass)DClassD;
             r.Method1();
+            */
 
+            Actions map = new Actions();
+            map.myActions["myKey"]();
+            int val = map.myFunc["myKey"]();
             Console.ReadKey();
         }
     }
